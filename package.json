@@ -1,0 +1,22 @@
+{
+  "name": "training_schedule",
+  "version": "1.0.0",
+  "description": "Given a json file, generate a training schedule for a half or full marathon",
+  "main": "index.html",
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "moment": "^2.10.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "json",
+    "training",
+    "running",
+    "moment"
+  ],
+  "author": "Tyrone Mitchell",
+  "license": "MIT"
+}

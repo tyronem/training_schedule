@@ -1,0 +1,88 @@
+.week_header, .header { 
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	font-family: 'Signika Negative', "Verdana", "Arial", sans-serif;
+	font-weight: 300;
+}
+
+.calendar_week {
+	display: flex;
+	flex-direction: row;
+	flex-basis: 84%;
+	flex-shrink: 0;
+}
+
+.calendar_day, .week_txt  {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	flex-basis: 12%;
+	flex-shrink: 0;
+	flex-grow: 14%;
+	border: 1px solid black;			
+}
+
+.date {
+	font-weight: 700;
+	padding-bottom: 15px;
+}
+
+p.mileage {
+	font-size: .8em;
+	font-style: italic;
+}
+
+p.line1, p.line2 {
+	margin: 0;
+	text-align: center;
+}
+
+.week_txt {
+	justify-content: center;
+}
+
+.past {
+	opacity: .7;
+}
+
+.today {
+	background-color: yellow;
+}
+
+p.line2 { display: block; }
+
+@media(max-width: 768px)  {
+
+	.calendar_day {
+		display: flex;
+	    flex-direction: column;
+	    padding: 10px;
+	    flex-basis: auto;
+	    flex-shrink: 1;
+	    flex-grow: 1;
+	}
+	.week_header {
+		flex-direction: column;
+	}
+	.calendar_week {
+		display: flex;
+		flex-direction: row;
+		flex-basis: 100%;
+		flex-shrink: 0;
+		flex-wrap: nowrap;
+		padding-bottom: 20px;
+	}
+	p.mileage { display: inline-block;}
+
+	p.line2 { display: none; }
+}
+
+
+@media(max-width: 480px)  {
+
+	.calendar_day {
+		padding: 10px 5px;
+	}
+
+}
