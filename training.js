@@ -2,7 +2,7 @@ var schedule = undefined;
 $(function() {
 
 	/* day_order: in this case my training schedules start on Monday. Adjust accordingly. */
-	$.getJSON('training.json', {param1: 'value1'}, function(json, textStatus) {
+	$.getJSON('marathon.json', {param1: 'value1'}, function(json, textStatus) {
 			//console.log(textStatus);
 			//console.log(json);
 			schedule = json;
@@ -58,18 +58,32 @@ $(function() {
 
 					calendar_entry.append(calendar_date);
 
+					if (schedule["week" + i][schedule.day_order[j]].distance  > 0) {
+						var line1 = $("<p />", {  
+						     "text": schedule["week" + i][schedule.day_order[j]].distance,
+						     "class": "line1"
+						});	
 
-					var line1 = $("<p />", {    
-					     "text": schedule["week" + i][schedule.day_order[j]].distance,
-					     "class": "line1"
-					});
+						var line2 = $("<p />", {    
+							"text": schedule["week" + i][schedule.day_order[j]].type,
+							"class": "line2"
+						});
+					} else {
+						var line1 = $("<p />", {  
+						     "text": "",
+						     "class": "line1"
+						});
+						var line2 = $("<p />", {    
+							"text": "",
+							"class": "line2"
+						});
+
+					}
+
 					
 					weekly_mileage += schedule["week" + i][schedule.day_order[j]].distance;
 					
-					var line2 = $("<p />", {    
-					     "text": schedule["week" + i][schedule.day_order[j]].type,
-					     "class": "line2"
-					});
+
 
 					
 					calendar_entry.append(line1);
