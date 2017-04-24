@@ -1,0 +1,307 @@
+{
+	"weeks": 10,
+	"race_day" : "20170625",
+	"day_order": ["m", "t", "w", "th", "f", "sa", "su"],
+	"title" : "NYRR Moderate Half Marathon Training plan",
+	"week1": {
+		"m": {
+			"distance": 3,
+			"type": "flex"
+		},
+		"t": {
+			"distance": 5,
+			"type": "regular"
+		},
+		"w": {
+			"distance": 4,
+			"type": "fartlek"
+		},
+		"th": {
+			"distance": 4,
+			"type": "regular run"
+		},
+		"f": {
+			"distance": 0,
+			"type": "off"
+		},
+		"sa": {
+			"distance": 4,
+			"type": "ayf"
+		},
+		"su": {
+			"distance": 6,
+			"type": "Long run"
+		}
+	},
+	"week2": {
+		"m": {
+			"distance": 3,
+			"type": "flex"
+		},
+		"t": {
+			"distance": 4,
+			"type": "regular"
+		},
+		"w": {
+			"distance": 4,
+			"type": "regular"
+		},
+		"th": {
+			"distance": 4,
+			"type": "ayf"
+		},
+		"f": {
+			"distance": 0,
+			"type": "off"
+		},
+		"sa": {
+			"distance": 4,
+			"type": "regular"
+		},
+		"su": {
+			"distance": 7,
+			"type": "Long run"
+		}
+	},
+	"week3": {
+		"m": {
+			"distance": 3,
+			"type": "flex"
+		},
+		"t": {
+			"distance": 5,
+			"type": "fartlek"
+		},
+		"w": {
+			"distance": 0,
+			"type": "off"
+		},
+		"th": {
+			"distance": 3,
+			"type": "regular run"
+		},
+		"f": {
+			"distance": 4,
+			"type": "regular"
+		},
+		"sa": {
+			"distance": 0,
+			"type": "off"
+		},
+		"su": {
+			"distance": 8,
+			"type": "Long run"
+		}
+	},
+	"week4": {
+		"m": {
+			"distance": 3,
+			"type": "flex"
+		},
+		"t": {
+			"distance": 6,
+			"type": "intervals"
+		},
+		"w": {
+			"distance": 4,
+			"type": "regular"
+		},
+		"th": {
+			"distance": 4,
+			"type": "easy"
+		},
+		"f": {
+			"distance": 0,
+			"type": "off"
+		},
+		"sa": {
+			"distance": 5,
+			"type": "regular"
+		},
+		"su": {
+			"distance": 9,
+			"type": "Long run"
+		}
+	},
+	"week5": {
+		"m": {
+			"distance": 4,
+			"type": "flex"
+		},
+		"t": {
+			"distance": 7,
+			"type": "intervals"
+		},
+		"w": {
+			"distance": 5,
+			"type": "regular"
+		},
+		"th": {
+			"distance": 5,
+			"type": "intervals"
+		},
+		"f": {
+			"distance": 0,
+			"type": "off"
+		},
+		"sa": {
+			"distance": 5,
+			"type": "easy"
+		},
+		"su": {
+			"distance": 8,
+			"type": "Long run"
+		}
+	},
+	"week6": {
+		"m": {
+			"distance": 3,
+			"type": "flex"
+		},
+		"t": {
+			"distance": 6,
+			"type": "tempo"
+		},
+		"w": {
+			"distance": 0,
+			"type": "off"
+		},
+		"th": {
+			"distance": 3,
+			"type": "easy"
+		},
+		"f": {
+			"distance": 5,
+			"type": "easy"
+		},
+		"sa": {
+			"distance": 0,
+			"type": "off"
+		},
+		"su": {
+			"distance": 10,
+			"type": "Long run"
+		}
+	},
+	"week7": {
+		"m": {
+			"distance": 5,
+			"type": "flex"
+		},
+		"t": {
+			"distance": 7,
+			"type": "regular"
+		},
+		"w": {
+			"distance": 5,
+			"type": "ayf"
+		},
+		"th": {
+			"distance": 6,
+			"type": "regular"
+		},
+		"f": {
+			"distance": 0,
+			"type": "off"
+		},
+		"sa": {
+			"distance": 6,
+			"type": "regular"
+		},
+		"su": {
+			"distance": 11,
+			"type": "Long run"
+		}
+	},	
+	"week8": {
+		"m": {
+			"distance": 4,
+			"type": "flex"
+		},
+		"t": {
+			"distance": 6,
+			"type": "fartlek"
+		},
+		"w": {
+			"distance": 0,
+			"type": "off"
+		},
+		"th": {
+			"distance": 6,
+			"type": "regular"
+		},
+		"f": {
+			"distance": 6,
+			"type": "ayf"
+		},
+		"sa": {
+			"distance": 0,
+			"type": "regular"
+		},
+		"su": {
+			"distance": 9,
+			"type": "Long run"
+		}
+	},	
+	"week9": {
+		"m": {
+			"distance": 4,
+			"type": "flex"
+		},
+		"t": {
+			"distance": 6,
+			"type": "tempo"
+		},
+		"w": {
+			"distance": 5,
+			"type": "ayf"
+		},
+		"th": {
+			"distance": 5,
+			"type": "regular run"
+		},
+		"f": {
+			"distance": 0,
+			"type": "off"
+		},
+		"sa": {
+			"distance": 5,
+			"type": "regular"
+		},
+		"su": {
+			"distance": 7,
+			"type": "Long run"
+		}
+	},
+	"week10": {
+		"m": {
+			"distance": 0,
+			"type": "off"
+		},
+		"t": {
+			"distance": 4,
+			"type": "regular"
+		},
+		"w": {
+			"distance": 5,
+			"type": "tempo"
+		},
+		"th": {
+			"distance": 4,
+			"type": "regular run"
+		},
+		"f": {
+			"distance": 4,
+			"type": "regular"
+		},
+		"sa": {
+			"distance": 3,
+			"type": "flex"
+		},
+		"su": {
+			"distance": 13.1,
+			"type": "Long run"
+		}
+	}
+}
+
