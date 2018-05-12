@@ -52,7 +52,8 @@ p.line1, p.line2 {
 
 p.line2 { display: block; }
 
-@media(max-width: 768px)  {
+
+@media screen and  (max-width: 768px)  {
 
 	.calendar_day {
 		display: flex;
@@ -79,10 +80,19 @@ p.line2 { display: block; }
 }
 
 
-@media(max-width: 480px)  {
+@media  screen and  (max-width: 480px)  {
 
 	.calendar_day {
 		padding: 10px 5px;
+	}
+
+}
+
+@media print {
+	html, p.mileage { font-size: 12px; }
+
+	.week_header:nth-of-type(8n+1) {
+		page-break-before: always;
 	}
 
 }

@@ -2,7 +2,7 @@ var schedule = undefined;
 $(function() {
 
 	/* day_order: in this case my training schedules start on Monday. Adjust accordingly. */
-	$.getJSON('half_marathon_moderate.json', {param1: 'value1'}, function(json, textStatus) {
+	$.getJSON('marathon.json', {param1: 'value1'}, function(json, textStatus) {
 			//console.log(textStatus);
 			//console.log(json);
 			schedule = json;
