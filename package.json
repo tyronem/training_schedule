@@ -4,10 +4,11 @@
   "description": "Given a json file, generate a training schedule for a half or full marathon",
   "main": "index.html",
   "dependencies": {
-    "jquery": "3.3.1",
     "moment": "^2.22.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jquery": "^3.4.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
