@@ -4,7 +4,7 @@
   "description": "Given a json file, generate a training schedule for a half or full marathon",
   "main": "index.html",
   "dependencies": {
-    "moment": "^2.25.1"
+    "moment": "^2.29.2"
   },
   "devDependencies": {
     "jquery": "^3.5.0"
