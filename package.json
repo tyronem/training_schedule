@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Given a json file, generate a training schedule for a half or full marathon",
   "main": "index.html",
-  "dependencies": {
-    "moment": "^2.29.2"
-  },
   "devDependencies": {
     "jquery": "^3.5.0"
   },
@@ -19,5 +16,8 @@
     "moment"
   ],
   "author": "Tyrone Mitchell",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.29.2"
+  }
 }
